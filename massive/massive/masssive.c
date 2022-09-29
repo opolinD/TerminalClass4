@@ -26,6 +26,10 @@ int main() {
 		}
 		printf("%d ", mass[i]);
 	}
+	printf("\n");
+	for (int i = 0; i < size; i++) {
+		printf("%d ", mass[rand()%size]);
+	}
 	system("pause");
 	return 0;
 }
